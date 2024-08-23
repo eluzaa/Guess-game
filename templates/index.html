@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #46745d;
+        }
+        div{
+            height: 30%;
+            width: 50%;
+            background-color: #dfc2c2;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-top: 5rem;
+            padding: 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .jj{
+            background-color: #e44464;
+            padding: 3px;
+            border-radius: 30px;
+        }
+        .bb{
+            background-color: #c2f351;
+            padding: 5px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1 style="color: #d1f25b"><u>#AVS</u></h1>
+    <div class="main">
+    <h1><u>Guess the Number Game</u></h1>
+    <p class="jj">Guess the number between 1 and 50!</p>
+    
+    {% if message %}
+    <p class="bb">{{ message }}</p>
+    {% endif %}
+    
+    <form method="POST">
+        <input type="number" name="guess" required>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</center>
+</body>
+</html>
