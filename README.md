@@ -1,13 +1,10 @@
-### README.md for Your Flask App
-
-Here's a beautiful and clean `README.md` template for your project:
-
 ```md
 # Guess the Number Game 🎮
 
 Welcome to **Guess the Number Game**, a simple yet fun number guessing game implemented in Python using Flask. The game randomly selects a number between 1 and 50, and the player tries to guess it with feedback after every attempt.
 
 Play it live at: [Guess the Number Game](https://adidas7717.pythonanywhere.com/)
+Note: The live website may go down as its hosted on pythonanywhere and they give only 3 months of free hosting :(
 
 ## 🚀 Features
 
