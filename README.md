@@ -1,4 +1,3 @@
-```md
 # Guess the Number Game 🎮
 
 Welcome to **Guess the Number Game**, a simple yet fun number guessing game implemented in Python using Flask. The game randomly selects a number between 1 and 50, and the player tries to guess it with feedback after every attempt.
@@ -42,9 +41,8 @@ Note: The live website may go down as its hosted on pythonanywhere and they give
 
 ## 🎨 Screenshots
 
-![Home Page](screenshots/home.png)
+![Home Page](/gmply.jpg)
 
-![Gameplay](screenshots/gameplay.png)
 
 ## 📂 Project Structure
 
