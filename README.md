@@ -22,20 +22,14 @@ Note: The live website may go down as its hosted on pythonanywhere and they give
 ## 🛠 How to Set Up Locally
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/username/repo.git
    cd repo
-   ```
 
 2. Install the required dependencies:
-   ```bash
    pip install -r requirements.txt
-   ```
 
 3. Run the application:
-   ```bash
    flask run
-   ```
 
 4. Open your browser and go to `http://127.0.0.1:5000/` to play the game locally.
 
@@ -76,11 +70,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check out 
 
 ## 🧑‍💻 Author
 
-- **Ankur Pandey** - [LinkedIn](https://linkedin.com/in/ankurpandey) | [GitHub](https://github.com/username)
+- **Aditya Vikram Singh** - [LinkedIn](https://linkedin.com/in/aditya-vikrsam-singh-770163224) | [GitHub](https://github.com/eluzaa)
 
-## 📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 ```
 
 ---
